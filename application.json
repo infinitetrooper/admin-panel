@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Dashboard",
       "isDefault": true
+    },
+    {
+      "id": "Panel - History",
+      "isDefault": false
     }
   ],
   "viewMode": false,

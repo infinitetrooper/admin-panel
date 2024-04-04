@@ -1,0 +1,1 @@
+INSERT INTO public.account ("external_id","customer_id","company.id","account_manager","created","updated") VALUES ('{{(Table2.newRow || {}).external_id}}','{{(Table2.newRow || {}).customer_id}}','{{(Table2.newRow || {}).company.id}}','{{(Table2.newRow || {}).account_manager}}','{{(Table2.newRow || {}).created}}','{{(Table2.newRow || {}).updated}}')
