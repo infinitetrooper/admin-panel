@@ -470,7 +470,7 @@
         },
         "id": {
             "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
-            "isEditable": false,
+            "isEditable": true,
             "notation": "standard",
             "alias": "id",
             "enableSort": true,
@@ -492,7 +492,7 @@
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
-            "isCellEditable": false,
+            "isCellEditable": true,
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
