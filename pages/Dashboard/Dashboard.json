@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 470,
+          "bottomRow": 660,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -28,6 +28,26 @@
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "Dashboard_Insert_public_users1",
+              "name": "Insert_public_users1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "(Table1.newRow || {}).phone",
+                "(Table1.newRow || {}).latitude",
+                "(Table1.newRow || {}).created_at",
+                "(Table1.newRow || {}).email",
+                "(Table1.newRow || {}).name",
+                "(Table1.newRow || {}).dob",
+                "(Table1.newRow || {}).updated_at",
+                "(Table1.newRow || {}).gender",
+                "(Table1.newRow || {}).longitude",
+                "(Table1.newRow || {}).image",
+                "(Table1.newRow || {}).country"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Dashboard_Select_public_users1",
               "name": "Select_public_users1",
