@@ -1,0 +1,1 @@
+UPDATE public.account SET "external_id"= '{{Table2.updatedRow.external_id}}', "customer_id"= '{{Table2.updatedRow.customer_id}}', "company.id"= '{{Table2.updatedRow.company.id}}', "account_manager"= '{{Table2.updatedRow.account_manager}}', "created"= '{{Table2.updatedRow.created}}', "updated"= '{{Table2.updatedRow.updated}}' WHERE "id"= {{Table2.updatedRow.id}};
