@@ -3,6 +3,10 @@
     {
       "id": "Dashboard",
       "isDefault": true
+    },
+    {
+      "id": "Panel - History",
+      "isDefault": false
     }
   ],
   "viewMode": false,
